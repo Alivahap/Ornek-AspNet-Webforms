@@ -79,6 +79,7 @@
     <Content Include="default.aspx" />
     <Content Include="GirisYap.aspx" />
     <Content Include="GirisYapElle.aspx" />
+    <Content Include="Global.asax" />
     <Content Include="KayıtOlElle.aspx" />
     <Content Include="StateManegment\Cookie.aspx" />
     <Content Include="StateManegment\QueryStringPage.aspx" />
@@ -89,6 +90,7 @@
     <Content Include="StateManegment\VievStatePage.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
+    <Content Include="ZiyaretciPage.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Admin\AdminPage.aspx.cs">
@@ -129,6 +131,9 @@
     </Compile>
     <Compile Include="GirisYapElle.aspx.designer.cs">
       <DependentUpon>GirisYapElle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="KayıtOlElle.aspx.cs">
       <DependentUpon>KayıtOlElle.aspx</DependentUpon>
@@ -213,6 +218,13 @@
     </Compile>
     <Compile Include="WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ZiyaretciPage.aspx.cs">
+      <DependentUpon>ZiyaretciPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ZiyaretciPage.aspx.designer.cs">
+      <DependentUpon>ZiyaretciPage.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
